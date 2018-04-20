@@ -1,3 +1,21 @@
-/*.nav-bar-style{
-    background-color: darkslategrey;
+.nav-bar-style{
+    background-color: rgb(38, 66, 66);
+    color: orange;
+}
+.logo-style{
+    font-family: Monoton;
+    padding: 1vh 0 0 1vh;
+}
+.nav-font{
+    font-family: Bangers;
+    color: orange;
+    font-size: 2vh;
+}
+.mod-header{
+    background-image: url(../images/filip-bunkens-508422-unsplash.png);
+    width: 100%;
+    height: auto;
+}
+/*body{
+    background: linear-gradient(to bottom left, rgb(43, 43, 245), rgb(100, 19, 167));
 }
