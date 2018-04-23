@@ -12,8 +12,10 @@
     font-size: 2vh;
 }
 header{
-    background-image: url(../images/filip-bunkens-508422-unsplash.png);
+    background-image: url(../images/alexandre-debieve-590418-unsplash.png);
     height: auto;
     background-size:cover;
     background-repeat: no-repeat;
+    color: orange;
+    /* font-family: Bangers; */
 }
