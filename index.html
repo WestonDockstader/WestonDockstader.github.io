@@ -7,7 +7,7 @@
     <title>Weston Dockstader Landing Page</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Bangers|Monoton|Special+Elite" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <link rel="stylesheet" href="assets/stylesheets/main.css">
 </head>
 <body>
@@ -22,13 +22,13 @@
                         <a href="#" class="nav-link">HOME</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">ABOUT ME</a>
+                        <a href="#aboutMe" class="nav-link">ABOUT ME</a>
                     </li>
                     <li class="nav-item">
                         <a href="#" class="nav-link">RESUME</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">PORTFOLIO</a>
+                        <a href="#projectLinks" class="nav-link">PORTFOLIO</a>
                     </li>
                 </ul>
             </div>
@@ -36,14 +36,14 @@
     </nav>
     <header class="container-fluid">
         <div class="row header">
-            <div class="col-4 pt-5 pb-5 d-flex flex-column justify-content-center">
+            <div class="col-4 offset-4 pt-5 pb-5 d-flex flex-column align-content-center">
                 <h1 class="display-4">Weston Dockstader</h1>
                 <p class="lead">Junior - Software Developer</p>
             </div>
         </div>
     </header>
     <section class="container-fluid">
-        <div class="row">
+        <div class="row"  id="aboutMe">
             <div class="col-8 offset-2 justify-content-center pt-5 pb-5 about-me-style">
                 <h1>About me...</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque voluptate quia labore dolores dignissimos reiciendis repellendus! Hic at vero eaque et minima ut ullam vitae velit suscipit aliquid? Doloremque, nisi?</p>
@@ -51,16 +51,17 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-8 offset-2 d-flex justify-content-around flex-wrap pl-3 pr-3 pt-3 pb-5">
-                    <i class="fab fa-html5 fa-5x"></i>
-                    <i class="fab fa-css3-alt fa-5x"></i>
-                    <i class="fab fa-python fa-5x"></i>
-                    <img src="//placehold.it/100x100" alt="">
-                    <img src="//placehold.it/100x100" alt="">
-                    <img src="//placehold.it/100x100" alt="">
+            <div class="col-8 offset-2 d-flex justify-content-around flex-wrap iconform">
+                    <i class="devicon-html5-plain-wordmark colored"></i>
+                    <i class="devicon-css3-plain-wordmark colored"></i>
+                    <i class="devicon-bootstrap-plain-wordmark colored"></i>
+                    <i class="devicon-javascript-plain colored"></i>
+                    <i class="devicon-mysql-plain-wordmark colored"></i>
+                    <i class="devicon-csharp-line-wordmark colored"></i>
+                    <i class="devicon-python-plain-wordmark colored"></i>
             </div>
         </div>
-        <div class="row">
+        <div class="row"  id="projectLinks">
             <div class="col d-flex justify-content-around flex-wrap pb-3">
                 <div>
                     <img src="//placehold.it/300x250" alt="">
