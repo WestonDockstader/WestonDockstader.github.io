@@ -23,3 +23,10 @@ header{
     font-size: 5rem;
     padding-bottom: 5rem;
 }
+.dev-cons{
+    padding-top: 0.5rem;
+}
+.img-style{
+    height: 250px;
+    width: 300px;
+}
